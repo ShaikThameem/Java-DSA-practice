@@ -1,0 +1,21 @@
+package Basics;
+import java.util.Scanner;
+public class greatestOfThree {
+    public static void main(String[] args) {
+        int x,y,z;
+        Scanner sc=new Scanner(System.in);
+        x=sc.nextInt();
+        y=sc.nextInt();
+        z=sc.nextInt();
+        sc.close();
+        if (x>y && x>z) {
+            System.out.println(x);
+        }
+        else if (y>x && y>z) {
+            System.out.println(y);
+        }
+        else{
+            System.out.println(z);
+        }
+    }
+}
